@@ -1,4 +1,32 @@
 body {
-	font-family: sans-serif;
-	padding: 1em 3em;
+  font-family: sans-serif;
+  padding: 1em 3em;
+  background-color: #849ab7;
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 3em;
+  margin: 30px auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 700px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #d5eff2;
+  border: none;
+  box-shadow: 5px 5px 10px #444444;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #444;
 }
