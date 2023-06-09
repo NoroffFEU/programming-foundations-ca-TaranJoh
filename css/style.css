@@ -12,11 +12,13 @@ h1 {
   letter-spacing: 5px;
   font-size: 3em;
   margin: 30px auto;
+  text-shadow: 2px 2px 5px #444444;
 }
 
 img {
   max-width: 100%;
   max-height: 700px;
+  box-shadow: 2px 2px 5px #444444;
 }
 
 button {
