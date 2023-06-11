@@ -3,6 +3,7 @@ body {
   padding: 1em 3em;
   background-color: #849ab7;
   display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
 }
 
@@ -13,12 +14,31 @@ h1 {
   font-size: 3em;
   margin: 30px auto;
   text-shadow: 2px 2px 5px #444444;
+  grid-column: span 2;
 }
 
 img {
   max-width: 100%;
   max-height: 700px;
   box-shadow: 2px 2px 5px #444444;
+}
+
+table {
+  margin: 275px 0px 275px 30px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 0.8em;
+  background-color: #727272;
+  box-shadow: 2px 2px 5px #444444;
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+td {
+  padding-left: 50px;
 }
 
 button {
@@ -31,4 +51,5 @@ button {
   font-weight: 600;
   font-size: 1.5em;
   color: #444;
+  grid-column: span 2;
 }
