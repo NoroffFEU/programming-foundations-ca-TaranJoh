@@ -11,7 +11,6 @@ const bed = {
   equippedWith: ["Six pillows", "Two blankets", "Bedspread", "Stuffed animal"],
   changeColour: function () {
     image.src = "/images/eikefiner.avif";
-    bed.appearence.colour = "oak";
   },
 };
 
