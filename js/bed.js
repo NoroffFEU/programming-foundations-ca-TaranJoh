@@ -10,7 +10,10 @@ const bed = {
   made: true,
   equippedWith: ["Six pillows", "Two blankets", "Bedspread", "Stuffed animal"],
   changeColour: function () {
-    image.src = "/images/eikefiner.avif";
+    if ((image.src = "/images/hvit.avif")) {
+      image.src = "/images/eikefiner.avif";
+      colour.innerHTML = "oak";
+    }
   },
 };
 
